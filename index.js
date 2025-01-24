@@ -39,7 +39,7 @@ app.post("/create_preference", async (req, res) => {
             },
             auto_return: "approved",
         };
-        
+
         const preference = new Preference(client);
         const result = await preference.create({ body });
         res.json({
