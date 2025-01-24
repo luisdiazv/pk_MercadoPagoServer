@@ -39,7 +39,7 @@ app.post("/create_preference", async (req, res) => {
             },
             auto_return: "approved",
         };
-
+        
         const preference = new Preference(client);
         const result = await preference.create({ body });
         res.json({
@@ -55,5 +55,4 @@ app.post("/create_preference", async (req, res) => {
 
 app.listen(port, () => {
     console.log("El server de Mercado Pago inicio correctamente en el puerto ", port);
-    console.log(client.accessToken);
 });
