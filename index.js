@@ -33,9 +33,9 @@ app.post("/create_preference", async (req, res) => {
                 },
             ],
             back_urls: {
-                success: "https://unal.edu.co/",
-                failure: "https://unal.edu.co/",
-                pending: "https://unal.edu.co/"
+                success: "https://planifiklub-git-fix-147c-luis-diazs-projects-ca3e414b.vercel.app/app/VisorDeCotizaciones",
+                failure: "https://planifiklub-git-fix-147c-luis-diazs-projects-ca3e414b.vercel.app/app",
+                pending: "https://planifiklub-git-fix-147c-luis-diazs-projects-ca3e414b.vercel.app/app"
             },
             auto_return: "approved",
         };
