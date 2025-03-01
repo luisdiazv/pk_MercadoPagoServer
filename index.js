@@ -32,12 +32,6 @@ app.post("/create_preference", async (req, res) => {
                     currency_id: "COP"
                 },
             ],
-            back_urls: {
-                success: "https://planifiklub.vercel.app/app/ChangePassword",
-                failure: "https://planifiklub.vercel.app/app/ChangePassword",
-                pending: "https://planifiklub.vercel.app/app/ChangePassword"
-            },
-            auto_return: "approved",
         };
 
         const preference = new Preference(client);
