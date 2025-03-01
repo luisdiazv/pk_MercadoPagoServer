@@ -33,9 +33,9 @@ app.post("/create_preference", async (req, res) => {
                 },
             ],
             back_urls: {
-                success: "https://planifiklub-git-fix-147c-luis-diazs-projects-ca3e414b.vercel.app/app/VisorDeCotizaciones",
-                failure: "https://planifiklub-git-fix-147c-luis-diazs-projects-ca3e414b.vercel.app/app",
-                pending: "https://planifiklub-git-fix-147c-luis-diazs-projects-ca3e414b.vercel.app/app"
+                success: "https://planifiklub.vercel.app/app/ChangePassword",
+                failure: "https://planifiklub.vercel.app/app/ChangePassword",
+                pending: "https://planifiklub.vercel.app/app/ChangePassword"
             },
             auto_return: "approved",
         };
